@@ -1,0 +1,38 @@
+= %%PROJECT_NAME%% Contracts
+:table-stripes: none
+:table-caption: Contracts Table
+
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+
+:fn-deprecated: footnote:deprecated[Deprecated. This contract is at the end of its lifecycle and will be disabled soon]
+:fn-discontinued: footnote:discontinued[Discontinued. This contract is no longer active, and is still here for posterity]
+
+This repository contains all contracts related to = %%PROJECT_NAME%%. Our intention is to help raise the standard of
+transparency across blockchain development.
+
+[NOTE]
+====
+The existence of a contract in this repository does not guarantee that a contract has, or ever will be,
+used or integrated into the %%PROJECT_NAME%% ecosystem.
+====
+
+.Security contact
+[%collapsible]
+====
+DirtyCajunRice#0001 (Discord)
+====
+
+.Ethereum
+[cols="^.^,^.^,^.^,^.^"]
+|===
+h|Category h|Contract h|Address h|Explorer Link
+s|Token (ERC20) |MyToken |`0x0000000000000000000000000000000000000000` |https://etherscan.io/address/0x32614E7D3C52Cd66BF2cb8CC17884749E4B070d4[Etherscan,role=external,window=_blank]
+|===
+
+== Setup
